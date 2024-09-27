@@ -485,8 +485,8 @@ do
         Title = "RAPID MOUSE",
         Description = "VELOCIDADE DE PUXAR MOUSE",
         Default = Configuration.Sensitivity,
-        Min = 4,
-        Max = 4,
+        Min = 1,
+        Max = 1,
         Rounding = 1,
         Callback = function(Value)
             Configuration.Sensitivity = Value
