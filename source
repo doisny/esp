@@ -503,7 +503,7 @@ do
         Description = "AJUDA NA ASSISTENCIA",
         Default = Configuration.NoiseFrequency,
         Min = 1,
-        Max = 3,
+        Max = 6,
         Rounding = 1,
         Callback = function(Value)
             Configuration.NoiseFrequency = Value
