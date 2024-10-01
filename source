@@ -486,7 +486,7 @@ do
         Description = "VELOCIDADE DE PUXAR MOUSE",
         Default = Configuration.Sensitivity,
         Min = 1,
-        Max = 1,
+        Max = 3,
         Rounding = 1,
         Callback = function(Value)
             Configuration.Sensitivity = Value
@@ -503,7 +503,7 @@ do
         Description = "AJUDA NA ASSISTENCIA",
         Default = Configuration.NoiseFrequency,
         Min = 1,
-        Max = 6,
+        Max = 1,
         Rounding = 1,
         Callback = function(Value)
             Configuration.NoiseFrequency = Value
